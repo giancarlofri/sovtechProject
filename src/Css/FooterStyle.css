@@ -1,0 +1,34 @@
+footer{
+    margin-top: 40px;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    font-size: calc(1px + 2vmin);
+    background-color: rgb(6, 136, 243);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#footerBox{margin-top: 20px;
+
+}
+#footerArea{padding-top: 20px;
+
+}
+/* .line{
+    width: 30%;
+} */
+hr{
+    margin-bottom: .5em;
+    margin-top: .3em;
+}
+.copyright p{text-align: center;
+    color: white;
+    margin-bottom: .5em;
+}
+@media screen and (max-width:1024px){
+    .line{
+        width: 40%
+    }
+}
+@media screen and (max-width:568px){
+    hr{display: none;}}
